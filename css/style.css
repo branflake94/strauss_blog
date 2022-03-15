@@ -1,6 +1,8 @@
 header {
     background-color:#1F2937;
     color: white;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 header::after {
@@ -16,7 +18,8 @@ header::after {
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Calibri" , sans-serif;
+    background-color: grey;
 }
 
 .Hero {
@@ -38,3 +41,13 @@ nav li{
     margin-left: 48px;
     padding-top: 30px;
 }
+
+nav a {
+    color: wheat;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:aquamarine;
+}
+
