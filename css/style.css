@@ -1,18 +1,40 @@
-.nav-bar {
-    background-color: #1F2937;
+header {
+    background-color:#1F2937;
+    color: white;
 }
 
-.nav-links {
-    list-style-type: none;
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav-bar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.Hero {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    list-style: none;
 }
 
-li {
+nav li{
     display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    margin-left: 48px;
+    padding-top: 30px;
 }
