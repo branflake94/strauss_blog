@@ -156,3 +156,52 @@ body {
     margin-right: 20%;
     font-weight: bold;
 }
+
+.s4box {
+    width: 50%;
+    min-height: 100px;
+    border: 1px solid rgb(0,0,0);
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3881f6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section4 {
+    padding: 70px;
+}
+
+.s4hs {
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.s4btn {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(255,36,36);
+    border: 1.5px solid rgb(255,255,255);
+    border-radius: 3px;
+    font-weight: 900;
+    color: white;
+}
+
+.s4btn:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+}
