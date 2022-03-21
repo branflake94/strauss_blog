@@ -2,14 +2,15 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Roberto", sans-serif;
+    background-color: #8d8d8d;
 }
 .header,
 .footer {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 7%;
-    background-color: rgb(2, 95, 177);
+    height: 60px;
+    background-color: #db2a2a;
 }
 
 .section1,
@@ -24,11 +25,13 @@ body {
     padding-top: 3%;
     width: 80%;
     margin: 0 auto;
+    border-radius: 20px;
 }
 .headerLogo {
     font-weight: 700;
     padding-left: 50px;
     font-size: x-large;
+    color: white;
 }
 
 .links {
@@ -52,13 +55,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #1f2937;
+    background-color: #ed5252;
     color: #f9faf8;
 }
 
 .s1Text {
-    width: 300px;
     height: 255px;
+    padding-left: 50px;
 }
 
 .s1ImgDiv {
@@ -67,8 +70,8 @@ body {
     align-items: center;
     width: 155px;
     height: 255px;
-    margin-right: 25%;
-    padding-bottom: 10px;
+    margin-right: 13%;
+    padding-bottom: 40px;
 }
 
 .s1img {
@@ -106,7 +109,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #db2a2a;
     border-radius: 10px;
     transition: .5s;
     cursor: pointer;
@@ -121,6 +124,7 @@ body {
     width: 100px;
     height: 100px;
     border-width: 3px;
+    border-radius: 20px;
     border-color: black;
 }
 
@@ -169,7 +173,7 @@ body {
     min-height: 100px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #3881f6;
+    background-color: #B11313;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
@@ -201,7 +205,7 @@ body {
 
 .s4btn:hover {
     cursor: pointer;
-    background-color: blue;
+    background-color: #8d8d8d;
 }
 
 .footer {
